@@ -53,6 +53,8 @@
 	# commit your files to local repository  
 	然后我们将本地的文件传送至github中，使用如下命令：
 	git remote add origin https://github.com/yourname/test.git  
+	fatal: remote origin already exists.若出现这个信息，则$ git remote rm origin
+	
 	git push -u origin master  
 	从现有仓库克隆
 	git clone git://github.com/yourname/test.git
